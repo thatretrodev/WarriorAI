@@ -34,7 +34,5 @@ async def main():
 
 	await init_client()
 
-try:
-	asyncio.run(main())
-except:
-	pass
+
+asyncio.run(main())
